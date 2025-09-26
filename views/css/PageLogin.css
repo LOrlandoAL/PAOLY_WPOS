@@ -1,0 +1,43 @@
+*{
+    flex-direction: column;
+    align-items: center;
+    margin: 0; /* Eliminar los márgenes predeterminados del cuerpo */
+    padding: 0; /* Eliminar el relleno predeterminado del cuerpo */
+    overflow-x: hidden; /* Ocultar el desplazamiento horizontal */
+    
+}
+
+body{
+    background-color: rgba(255, 252, 249, 0.819);
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 5vh;
+}
+
+footer{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 5vh;
+}
+
+.greetings{
+    padding: 10px;
+    font-size: xx-large;
+    text-decoration: dashed;
+}
+
+#frmLogin{
+    width: auto;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 255, 255);
+    border-radius: 10px;
+}
