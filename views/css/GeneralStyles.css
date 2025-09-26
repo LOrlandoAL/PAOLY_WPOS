@@ -1,0 +1,13 @@
+.btnsubmit{
+    height: auto;
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.txtinput{
+    height: auto;
+    width: auto;
+    padding: 10px;
+}
